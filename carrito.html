@@ -1,0 +1,69 @@
+<section class="contenido bg-size">
+
+    <div id="carrito" class="carrito">
+
+        <h1 class="text-align-center color-darkblue">Bienvenido a nuestro carrito de compras</h1>
+        <form id="form-tabla" action="">
+
+            <label for="select-productos">Producto:</label>
+            <select id="select-productos" name="precio">
+
+                <option value="0">--Seleccione--</option>
+
+                <optgroup label="Mochilas" name="mochilas">
+                    <option value="20000">mochila.lorem</option>
+                    <option value="15000">mochila.viewport</option>
+                    <option value="22000">mochila.class</option>
+                    <option value="18000">mochila.header</option>
+                </optgroup>
+
+                <optgroup label="Para-Matear">
+                    <option value="3600">yerbero.tag</option>
+                    <option value="6500">porta-mate.section</option>
+                    <option value="11000">mate.form</option>
+                </optgroup>
+                
+                <optgroup label="Gorras">
+                    <option value="4500">gorra.td</option>
+                    <option value="5700">gorra.circle</option>
+                    <option value="5700">gorra.height</option>
+                </optgroup>
+                
+                <optgroup label="Riñoneras">
+                    <option value="10500">riñonera.black</option>
+                    <option value="9500">riñonera.blue</option>
+                    <option value="9500">riñonera.camel</option>
+                </optgroup>
+
+                <optgroup label="Cintos">
+                    <option value="6300">cinto.div</option>
+                    <option value="7800">cinto.aside</option>
+                </optgroup>
+
+                <optgroup label="Bolsos">
+                    <option value="25000">bolso.grid</option>
+                    <option value="16000">bolso.h1</option>
+                </optgroup>
+            </select>
+
+            <label for="precio-cart">Precio: $</label>
+            <input id="precio-cart" type="text" value="0" readonly>
+
+            <!-- inputs escondidos (nombre y categoria) que son rellenados automaticamente por el .js -->
+            <input id="nombre-cart" type="text" name="nombre" value="0" hidden>
+            <input id="categoria-cart" type="text" name="categoria" value="0" hidden>
+
+            <label for="cantidad-cart">Cantidad:</label>
+            <input id="cantidad-cart" type="number" name="cantidad" value="1">
+
+            <p class="color-darkblue">Aprovecha nuestra super oferta! 20% off para cada unidad despues de la segunda mochila y/o bolso!</p>
+        
+            <button id="btn-agregar" type="submit">Agregar producto</button>
+            <button id="btn-borrar" type="button">Borrar ultimo</button>
+            <button id="btn-reset" type="button">Vaciar carrito</button>
+        </form>
+
+        <table id="tabla-dinamica"></table>
+
+    </div>
+</section>

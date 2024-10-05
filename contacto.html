@@ -1,0 +1,36 @@
+<section class="contenido bg-size">
+    <form id="form-contacto" class="form-contacto form-wide" action="">
+        <div class="form-wide form-field">
+            <label for="nombre">nombre completo</label>
+            <input id="nombre" class="form-input form-border" type="text" name="nombre" placeholder=" Tu nombre y apellido" required/>
+        </div>
+        <div class="form-cont-thin form-wide">
+            <div class="form-thin form-field">
+                <label for="email">e-mail</label>
+                <input id="email" class="form-input form-border" type="email" name="email" placeholder=" email@gmail.com" required>
+            </div>
+            <div class="form-thin form-field">
+                <label for="telefono">teléfono</label>
+                <input id="telefono" class="form-input form-border" type="number" name="telefono" placeholder=" Tu numero">
+            </div>
+        </div>
+        <div class="form-wide form-field">
+            <label for="form-textarea">mensaje: </label>
+            <textarea id="form-textarea" class="form-textarea form-input form-border" name="mensaje" id="" cols="30" rows="10" placeholder=" Tu mensaje" required></textarea>
+        </div>
+
+        <div id="cont-captcha" class="cont-captcha form-div-center form-field">
+            <button id="btn-refresh" class="btn-refresh material-icons form-border form-btn" type="button">refresh</button>
+            <h1 id="captcha-texto" class="captcha-texto moms-typewriter form-border text-align-center"></h1>
+        </div>
+        <div class="form-div-center form-field">
+            <label for="captcha-input">captcha: </label>
+            <input id="captcha-input" class="form-input form-border" type="text" name="captcha-input" placeholder=" Ingrese el captcha">
+        </div>
+        <div class="form-div-center form-field">
+            <button class="form-input form-border form-btn" type="submit">enviar</button>
+        </div>
+
+        <h2 id="captcha-notificacion" class="captcha-notificacion text-align-center"></h2>
+    </form>
+</section>

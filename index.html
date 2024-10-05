@@ -1,0 +1,197 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>mochilas.tag</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <!--Header-->
+    <header id="header" class="header-container text-align-center color-darkblue">
+        
+        <!--Menu mobile-->
+        <nav class="header-menu bg-size">
+
+            <div class="mobile-menu text-align-center">
+                <button id="btn-open" class="btn-sidebar"><i class="material-icons">menu</i></button>
+            </div>
+            
+            <div class="header-central">
+                <div><p class="p-logo">&#60&#47&#62</p></div>
+            </div>    
+            
+            <div class="mobile-menu">
+                <a class="links" href="carrito.html">
+                    <i class="material-icons">shopping_cart</i>
+                    <span class="contador-cart">0</span>
+                </a>
+            </div>
+        </nav>
+
+        <!--Menu desktop-->
+        <nav class="header-menu bg-size">
+
+            <div class="desktop-menu-container">
+                <ul class="desktop-menu">
+                    <li><a id="index" class="links" href="productos.html">INICIO</a></li>
+                    <li><a class="links" href="productos.html">PRODUCTOS</a></li>
+                    <li><a class="links" href="empresa.html">EMPRESA</a></li>
+                </ul>
+            </div>
+            
+            <div class="header-central">
+                <div><p class="p-logo">&#60&#47&#62</p></div>
+                <h3 class="h3-brand">- MOCHILAS TAG -</h3> 
+            </div>    
+            
+            <div class="desktop-menu-container">
+                <ul class="desktop-menu">
+                    <li><a class="links" href="contacto.html">CONTACTO</a></li>
+                    <li><a class="links" href="carrito.html">CARRITO <i class="material-icons">shopping_cart</i> <span class="contador-cart">0</span></a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <aside>
+        <nav id="sidebar" class="sidebar">
+            <ul class="sidebar-main">
+                <li><button id="btn-close" class="btn-close btn-sidebar">×</button></li>
+                <li><a class="links" href="productos.html">Inicio</a></li>
+                <li><a id="btn-prod" href="#main">Productos</a></li>
+                <ul id="sidebar-sub" class="sidebar-sub">
+                    <li><a class="links" href="mochilas.html">Mochilas</a></li>
+                    <li><a class="links" href="mates.html">Para matear</a></li>
+                    <li><a class="links" href="gorras.html">Gorras</a></li>
+                    <li><a class="links" href="rinioneras.html">Riñoneras</a></li>
+                    <li><a class="links" href="cintos.html">Cintos</a></li>
+                    <li><a class="links" href="bolsos.html">Bolsos</a></li>
+                </ul>
+                <li><a class="links" href="empresa.html">Empresa</a></li>
+                <li><a class="links" href="contacto.html">Contacto</a></li>
+                <li><a class="links" href="carrito.html">Carrito</a></li>
+            </ul>
+        </nav>
+    </aside>
+    
+    <!--Banner-->
+    <div id="cont-banner-superior">
+        <div class="slides">
+            <img class="img-banner fade" src="img/banner1.png" alt="Banner">
+        </div>
+        <div class="slides">
+            <img class="img-banner fade" src="img/banner2.png" alt="Banner">
+        </div>
+        <div class="slides">
+            <img class="img-banner fade" src="img/banner3.png" alt="Banner">
+        </div>
+        <div class="slides">
+            <img class="img-banner fade" src="img/banner4.png" alt="Banner">
+        </div>
+    </div>
+
+    <!--Contenido-->
+    <main id="main"></main>
+    
+    <div id="cont-loader" class="cont-loader">
+        <div class="loader"></div>
+    </div>
+
+    <!--Banner inferior-->
+    <div class="cont-banner-inferior text-align-center">
+        <div class="banner-info">
+            <i class="material-icons">markunread_mailbox</i>
+            <p class="p-banner-titulo">ENVIOS GRATIS</p>
+            <p class="p-banner-descripcion">A PARTIR DE $20.000</p>
+        </div>
+        <div class="banner-info">
+            <i class="material-icons">discount</i>
+            <p class="p-banner-titulo">10% DE DESCUENTO</p>
+            <p class="p-banner-descripcion">ABONANDO CON TRANSFERENCIA</p>
+        </div>
+        <div class="banner-info">
+            <i class="material-icons">reply_all</i>
+            <p class="p-banner-titulo">1° CAMBIO GRATIS</p>
+            <p class="p-banner-descripcion">DENTRO DE LOS 30 DÍAS</p>
+        </div>
+        <div class="banner-info">
+            <i class="material-icons">credit_card</i>
+            <p class="p-banner-titulo">3 CUOTAS SIN INTERÉS</p>
+            <p class="p-banner-descripcion">COMPRA CON DATOS PROTEGIDOS</p>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer id="cont-footer" class="bg-size text-align-center">
+
+        <!--Medios de pago y envio-->
+        
+        <section>
+            <!--Medios de pago-->
+            <div class="cont-pay-delivery-options">
+                <button id="btn-payments"><h4>MEDIOS DE PAGO<i class="material-icons">arrow_drop_down</i></h4></button>
+                <div id="cont-payments" class="cont-options">
+                    <img class="img-icono-medios" src="img/icon/icono-mp.png" alt="">
+                    <img class="img-icono-medios" src="img/icon/icono-mastercard.png" alt="">
+                    <img class="img-icono-medios" src="img/icon/icono-visa.png" alt="">
+                    <img class="img-icono-medios" src="img/icon/icono-american.png" alt="">
+                    <img class="img-icono-medios" src="img/icon/icono-naranja.png" alt="">
+                    <img class="img-icono-medios" src="img/icon/icono-cabal.png" alt="">
+                    <img class="img-icono-medios" src="img/icon/icono-maestro.png" alt="">
+                    <img class="img-icono-medios" src="img/icon/icono-diners.png" alt="">
+                    <img class="img-icono-medios" src="img/icon/icono-nativa.png" alt="">
+                    <img class="img-icono-medios" src="img/icon/icono-pago-facil.png" alt="">
+                    <img class="img-icono-medios" src="img/icon/icono-rapipago.png" alt="">
+                    <img class="img-icono-medios" src="img/icon/icono-transferencia.png" alt="">
+                </div>
+            </div>
+
+            <!--Medios de envio-->
+            <div class="cont-pay-delivery-options">
+                <button id="btn-deliveries"><h4>MEDIOS DE ENVÍO<i class="material-icons">arrow_drop_down</i></h4></button>
+                <div id="cont-deliveries" class="cont-options">
+                    <img class="img-icono-medios" src="img/icon/icono-correo-argentino.png" alt="">
+                    <img class="img-icono-medios" src="img/icon/icono-envio.png" alt="">
+                    <img class="img-icono-medios" src="img/icon/icono-acordar.png" alt="">
+                </div>
+            </div>
+        </section>
+        
+
+        <!--Info-->
+        <section>
+
+            <!-- Redes sociales -->
+            <h4>NUESTRAS REDES</h4>
+            <a href="#"><img class="img-icon-net" src="img/icon/icon-facebook.png" alt=""></a>
+            <a href="#"><img class="img-icon-net" src="img/icon/icon-twitter.png" alt=""></a>
+            <a href="#"><img class="img-icon-net" src="img/icon/icon-instagram.png" alt=""></a>
+            <a href="#"><img class="img-icon-net" src="img/icon/icon-youtube.png" alt=""></a>
+            <a href="#"><img class="img-icon-net" src="img/icon/icon-linkedin.png" alt=""></a>
+            <a href="#"><img class="img-icon-net" src="img/icon/icon-whatsapp.png" alt=""></a>
+            
+            <!--contactos-->
+            <h4>CONTACTO</h4>
+            <ul class="contactos">
+                <li><i class="material-icons">mail</i> mochilas.tag@gmail.com</li>
+                <li><i class="material-icons">location_on</i> Gral. Rodriguez 1234</li>
+                <li><i class="material-icons">phone</i> 0054-(2494)123456</li>
+            </ul>
+        </section>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+    
+</body>
+
+</html>
